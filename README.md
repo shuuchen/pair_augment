@@ -8,3 +8,23 @@ In semantic segmentation, image-label pairs should be augmented equally. Sometim
 
 ## compare train/valid loss curve to check overfitting
 If data augmentation succeeds, the valid loss curve will converge to train loss curve, otherwise they will fall apart at early stage of training.
+
+## example images
+Image and label data type and distribution do not change before and after augmentation.
+- original
+![alt text](data/original.png "original")
+
+- h-flip
+![alt text](data/hf.png "horizontal flip")
+
+- v-flip
+![alt text](data/vf.png "vertical flip")
+
+- random rotation
+![alt text](data/rr.png "random rotation")
+
+- scale crop
+![alt text](data/sa.png "scale crop")
+
+## reference
+https://github.com/xkumiyu/numpy-data-augmentation
