@@ -16,10 +16,10 @@ Image and label data type and distribution do not change before and after augmen
 - original
 ![alt text](data/original.png "original")
 
-- h-flip
+- horizontal-flip
 ![alt text](data/hf.png "horizontal flip")
 
-- v-flip
+- vertical-flip
 ![alt text](data/vf.png "vertical flip")
 
 - random rotation
